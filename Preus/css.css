@@ -1,0 +1,951 @@
+@charset "iso-8859-2";
+img{width:100%; height:auto;border:none;}
+*{font-family: Arial, Helvetica, sans-serif;}
+html,body{
+	margin:0px;
+	height: 95%;
+	min-height:400px;
+	min-width:780px;
+}
+body{
+	position: relative;
+	background:#DDDDDD;
+}
+.paddingBody{
+	padding: 20px 150px;
+}
+.wrapperGlobal{
+	height: 100%;
+	padding: 0px 80px;
+}
+h1{
+	display: inline-block;
+	margin: 0px 0px 20px 4%;
+}
+h3{
+	margin-top: 0px;
+}
+.loadingDiv{
+	display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('images/loading-icon.gif') 
+                50% 50% 
+                no-repeat;
+}
+body.loading {
+    overflow: hidden;   
+}
+body.loading .loadingDiv {
+    display: block;
+}
+#bodyAlumnos{
+	min-width: 1024px;
+}
+#espacioBlanco{
+	height: 30px;
+	clear: both;
+}
+.sangria{
+	margin-left: 30px;
+}
+.bold{
+	font-weight: bold;
+}
+h2, h3{
+	font-weight: 100;
+}
+.floatLeft{
+	float: left;
+}
+.margenLeft{
+	margin-left: 4%;
+}
+/** APPRISE **/
+.apprise-overlay{
+	z-index: 100;
+}
+.apprise{
+	z-index: 101;
+}
+/* Botones */
+.boton{
+	font-size: 13px !important;
+	height: 28px;
+	color: #fff;
+	cursor: pointer;
+	border: none;
+	background:#01183F; 
+	padding: 0px 7px;
+	margin-bottom: 15px;
+	 
+
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6);
+	-webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6);
+
+}
+.boton:active{
+   	position:relative;
+	top:2px;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+.botonCambiarApretado{
+	font-weight: bold;
+}
+.dropYears, .dropYearsHorario{
+	position: absolute;
+	top: 35px;
+	right: 100px;
+}
+.conBarraArriba .dropYears, .conBarraArriba .dropYearsHorario{
+	position: absolute;
+	top: 95px;
+	right: 100px;
+}
+.yearClick{
+	color: black;
+	text-decoration: none;
+}
+.yearClick:hover{
+	text-decoration: underline;
+}
+/*******************************************/
+/**************** ASISTENCIA ****************/
+/*******************************************/
+.suwala-doubleScroll-scroll-wrapper{
+	position:relative;
+	top:-20px;
+}
+.freezeLeft{
+	white-space: nowrap;
+}
+.fecha{
+	display: block;
+}
+.deleteAsistenciaImg{
+	display: none;
+	vertical-align: middle;
+	height: 18px; 
+	width: auto;
+	cursor: pointer;
+}
+#datosAsistencia .tablaPorcentajeAsistencia tr td:nth-last-child(2), #datosAsistencia .tablaPorcentajeAsistencia tr th:nth-last-child(2){
+	border-left-color: transparent;
+}
+#botonEditarAsistencia{
+	float: left;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-delay: .2s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration: 1s;
+	-moz-animation-delay: .2s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-fill-mode: both;
+	-ms-animation-duration: 1s;
+	-ms-animation-delay: .2s;
+	-ms-animation-timing-function: ease;
+	-ms-animation-fill-mode: both;
+	-o-animation-duration: 1s;
+	-o-animation-delay: .2s;
+	-o-animation-timing-function: ease;
+	-o-animation-fill-mode: both;
+	animation-duration: 1s;
+	animation-delay: .2s;
+	animation-timing-function: ease;
+	animation-fill-mode: both;	
+}
+.circleBase {
+	cursor: pointer;
+	width: 25px;
+	height: 25px;
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    border-radius: 999px;
+    margin: 0 auto;
+    -webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+.squareBase{
+	cursor: pointer;
+}
+.noEditando .celdaVerde{
+	background-color: rgba(55, 191, 62, 0.8) !important;
+}
+.noEditando .celdaRoja{
+	background-color: rgba(198, 51, 50, 0.8) !important;
+}
+.noEditando .celdaGris{
+	background-color: rgba(100, 100, 100, 0) !important;
+}
+.editando .celdaGris{
+	background-color: rgba(100, 100, 100, 0) !important;
+}
+.editando .celdaVerde{
+	background-color: rgba(55, 191, 62, 1) !important;
+}
+.editando .celdaRoja{
+	background-color: rgba(198, 51, 50, 1) !important;
+}
+#agregarFecha{
+	margin-top: 10px;
+}
+#fancyCalendario{
+	display: none;
+}
+.linea{
+	display: inline-block;
+}
+.scrollx{
+	overflow: auto;
+	position: relative;
+	top: -20px;
+}
+.tablaAsistencia{
+	display: table-cell;
+	vertical-align: top;
+}
+.tablaAsistencia tr{
+	height: 37px;
+}
+.tablesWrapper{
+	display: table;
+	margin-top:20px;
+}
+#botonNuevaFecha{
+	margin-left: 35px;
+	float: left;
+}
+/*******************************************/
+/****************** PAGOS ******************/
+/*******************************************/
+.mostrar{
+	padding: 0 5px;
+	top: 3px;
+	color: #000;
+	position: relative;
+}
+.noMostrar{
+	padding: 0 5px;
+	display: none;
+	top: -2px;
+	font-size: 25px;
+	color: #000;
+	position: relative;
+}
+.tooltipLink{
+	cursor: pointer;
+}
+.tooltipLink:hover{
+	text-decoration: underline;
+}
+#botonEnviarMailPagos{
+}
+.mesElegidoPago {
+	display: none;
+}
+#botonEditarPagos{
+	margin-right: 25px;
+	float: left;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-delay: .2s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration: 1s;
+	-moz-animation-delay: .2s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-fill-mode: both;
+	-ms-animation-duration: 1s;
+	-ms-animation-delay: .2s;
+	-ms-animation-timing-function: ease;
+	-ms-animation-fill-mode: both;
+	-o-animation-duration: 1s;
+	-o-animation-delay: .2s;
+	-o-animation-timing-function: ease;
+	-o-animation-fill-mode: both;
+	animation-duration: 1s;
+	animation-delay: .2s;
+	animation-timing-function: ease;
+	animation-fill-mode: both;	
+}
+/*******************************************/
+/**************** CONTROLES ****************/
+/*******************************************/
+.control{
+	display: block;
+	width: 25px;
+}
+#datosControles .tablaPorcentajeControles tr td:nth-last-child(2), #datosControles .tablaPorcentajeControles tr th:nth-last-child(2){
+	border-left-color: transparent;
+}
+#botonEditarControles{
+	float: left;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-delay: .2s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration: 1s;
+	-moz-animation-delay: .2s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-fill-mode: both;
+	-ms-animation-duration: 1s;
+	-ms-animation-delay: .2s;
+	-ms-animation-timing-function: ease;
+	-ms-animation-fill-mode: both;
+	-o-animation-duration: 1s;
+	-o-animation-delay: .2s;
+	-o-animation-timing-function: ease;
+	-o-animation-fill-mode: both;
+	animation-duration: 1s;
+	animation-delay: .2s;
+	animation-timing-function: ease;
+	animation-fill-mode: both;	
+}
+.linea{
+	display: inline-block;
+}
+.tablaControles{
+	display: table-cell;
+	vertical-align: top;
+}
+.tablaControles tr{
+	height: 37px;
+}
+.tablaControles tr td{
+	text-align: center;
+}
+.tablaNotas input, .tablaPagados input{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	text-align: center;
+}
+.tablesWrapper{
+	display: table;
+	margin-top:20px;
+}
+/*** MATERIAL ***/
+.subtituloMaterial{
+	margin-bottom: 40px;
+}
+.pseudolink{
+	cursor: pointer;
+}
+.pseudolink:hover{
+	color: #023893;
+}
+.pseudolink.elegido{
+	color: #023893;
+	font-weight: bold;
+}
+.listadoMaterial{
+	margin-right: 4%;
+}
+.listadoMaterial td{
+	text-align: left;
+}
+.hidden{
+	display: none;
+}
+#wrapperFormaMaterial{
+	position:relative;
+	overflow:hidden;
+}
+#formaMaterial{
+	display:block;
+	position:absolute;
+	top:0;
+	left:-9999px;
+}
+#seccionesMaterial{
+	display: inline-block;
+	margin-left: 20px;
+}
+.deleteMaterialImg{
+	display: none;
+	vertical-align: top; 
+	height: 18px; 
+	width: auto;
+	cursor: pointer;
+	top: -2px;
+	position: relative;
+	float: right;
+	margin-left: 5px;
+}
+#botonesMaterial{
+	display: block;
+	padding-top: 15px;
+	margin-bottom: 10px;
+}
+#botonAgregarCarpeta{
+	margin-right: 25px;
+}
+.tablaMaterial th{
+	min-width: 80px;
+	padding: 8px 20px;
+}
+/*** EMAILS ***/
+#bodyEmails{
+	min-width: 950px; 
+}
+.celdaInvisible{
+	border: transparent !important;
+	background: transparent !important;
+	height: 5px;
+}
+.tablaEmails{
+	position: absolute;
+	margin-right: 4%;
+}
+.envioMails td{
+	text-align: left;
+}
+.envioMails span{
+	text-decoration: none;
+	color: #023893;
+	cursor: pointer;
+}
+#headerEnvioMails{
+	height: 42px;
+	padding: 5px 15px;
+}
+#headerEnvioMails h3{
+	margin: 0;
+	vertical-align: top;
+}
+#datosEmails tr th:first-child, #datosEmails tr th:nth-child(2), #datosEmails tr th:nth-child(3){
+    width: 1px;
+    white-space: nowrap;
+}
+#datosEmails tr:first-child{
+    vertical-align: top;
+    font-weight: 100;
+    font-size: 1.17em;
+}
+#fancyMail h2{
+	margin-top: 0px;
+}
+#fancyMail #asunto{
+	width: 400px;
+}
+#fancyMail input, #fancyMail label, #fancyMail textarea{
+	display: block;	
+}
+#fancyMail textarea{
+	width: 450px;
+	margin-right: 40px;
+}
+.palabrasClave{
+	vertical-align: top;
+}
+.palabrasClave span{
+	display: block;
+	cursor: pointer;
+	color: gray;
+}
+.palabrasClave span:hover{
+	color: #023893;
+}
+/* Listado de ensayos */
+#datosEnsayos input{
+	width: 60px;
+}
+#checkDemre{
+	display: inline;
+	margin-left: 20px;
+}
+#checkDemre input{
+	vertical-align: middle;
+}
+#botonNuevoEnsayo{
+	margin-left: 35px;
+	margin-right: 15px;
+}
+#botonEditarEnsayos{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-delay: .2s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration: 1s;
+	-moz-animation-delay: .2s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-fill-mode: both;
+	-ms-animation-duration: 1s;
+	-ms-animation-delay: .2s;
+	-ms-animation-timing-function: ease;
+	-ms-animation-fill-mode: both;
+	-o-animation-duration: 1s;
+	-o-animation-delay: .2s;
+	-o-animation-timing-function: ease;
+	-o-animation-fill-mode: both;
+	animation-duration: 1s;
+	animation-delay: .2s;
+	animation-timing-function: ease;
+	animation-fill-mode: both;	
+}
+#opcionesEnsayos{
+	margin-bottom: 15px;
+}
+#borrarEnsayo{
+	position: relative;
+	top: 4px;
+	left: 5px;
+	height: 22px;
+	width: auto;
+	cursor: pointer;
+}
+/* Listado de alumnos */
+.deleteAlumnoImg{
+	vertical-align: middle; 
+	height: 18px; 
+	width: auto;
+	cursor: pointer;
+}
+#botonAgregarAlumno{
+	margin: 10px 0 25px 0;
+}
+#botonEliminarAlumno{
+	margin-left: 25px;
+}
+.fondoVerde{
+	background-color: #6e9c6d;
+}
+.tendenciasTabla tr:first-child th:first-child{
+	border-color: transparent;
+	background: transparent;
+}
+#datosEnsayos th,  #datosEnsayos td, #datosAlumnos th,  #datosAlumnos td, #datosApoderados th,  #datosApoderados td, #datosEmails th,  #datosEmails td, .envioMails th, .envioMails td, .tablaMaterial th, .tablaMaterial td, .tendenciasTabla th, .tendenciasTabla td, #datosAsistencia th,  #datosAsistencia td, .tableGeneric th, .tableGeneric td{
+	border: 2px solid #818181
+}
+#datosAlumnos table tr td:nth-last-child(2), #datosAlumnos table tr th:nth-last-child(2), #datosApoderados table tr td:nth-last-child(2), #datosApoderados table tr th:nth-last-child(2), #datosAsistencia .tablaPorcentajeAsistencia tr td:nth-last-child(2), #datosAsistencia .tablaPorcentajeAsistencia tr th:nth-last-child(2), #datosControles .tablaPorcentajeControles tr td:nth-last-child(2), #datosControles .tablaPorcentajeControles tr th:nth-last-child(2) {
+	border-bottom-color: transparent;
+	border-top-color: transparent;
+	width: 20px;
+	background: transparent;
+}
+#datosEnsayos tr:nth-child(1) th, #datosAlumnos tr:nth-child(1) th, #datosApoderados tr:nth-child(1) th, #datosEmails tr:nth-child(1) th, .envioMails tr:nth-child(1) th, .tablaMaterial tr:nth-child(1) th, .tendenciasTabla th, #datosAsistencia tr:nth-child(1) th, .tableGeneric tr:nth-child(1) th{
+	background: url(images/fondo-azul.png) repeat;
+	color: white;
+	font-weight: 100;
+}
+#datosEnsayos table, #datosAlumnos table, #datosApoderados table, #datosEmails table, .envioMails table, .tablaMaterial, .tendenciasTabla, #datosAsistencia table, .tableGeneric table{
+	border-collapse:collapse;
+}
+#datosEnsayos tr:nth-child(even) td, #datosAlumnos tr:nth-child(even) td, #datosAlumnos tr:nth-child(even) th, #datosApoderados tr:nth-child(even) td, #datosApoderados tr:nth-child(even) th, #datosAsistencia tr:nth-child(even) td, #datosAsistencia tr:nth-child(even) th, .tableGeneric tr:nth-child(even) td, .tableGeneric tr:nth-child(even) th{
+	background-color: #ccc;
+}
+#datosEmails tr:nth-child(even) td, #datosEmails tr:nth-child(even) th, .envioMails tr:nth-child(even) td, .envioMails tr:nth-child(even) th, .tablaMaterial tr:nth-child(even) td, .tablaMaterial tr:nth-child(even) th, .tendenciasTabla tr:nth-child(even) td, .tendenciasTabla tr:nth-child(even) th{
+	background-color: #dedede;
+}
+#datosEnsayos tr:nth-child(odd) td, #datosAlumnos tr:nth-child(odd) td, #datosAlumnos tr:nth-child(odd) th, #datosApoderados tr:nth-child(odd) td, #datosApoderados tr:nth-child(odd) th, #datosEmails tr:nth-child(odd) td, #datosEmails tr:nth-child(odd) th, .envioMails tr:nth-child(odd) td, .envioMails tr:nth-child(odd) th, .tablaMaterial tr:nth-child(odd) td, .tablaMaterial tr:nth-child(odd) th, .tendenciasTabla tr:nth-child(odd) td, .tendenciasTabla tr:nth-child(odd) th, #datosAsistencia tr:nth-child(odd) td, #datosAsistencia tr:nth-child(odd) th, .tableGeneric tr:nth-child(odd) td, .tableGeneric tr:nth-child(odd) th{
+	background-color: white;
+}
+#datosEnsayos a, #datosAlumnos a, #datosApoderados a, #datosEmails a, .envioMails a, .tablaMaterial a {
+	text-decoration: none;
+	color: #023893;
+}
+#datosEnsayos th, #datosAlumnos th, #datosApoderados th, #datosEmails th, #datosAsistencia th, .tableGeneric th{
+	font-weight: normal;
+}
+.linkSinGracia{
+	cursor: default;
+	color: gray !important;
+}
+.textoGris{
+	cursor: default;
+	color: gray !important;
+}
+/* Profesor grafico */
+#containerGrafico div, #containerGrafico table, #containerGraficoAlumno div, #containerGraficoAlumno table{
+	transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+}
+#choicesAdmin{
+	padding-bottom: 10px;
+	margin-bottom: 20px; 
+	border-bottom:3px dashed #ccc;
+	position: relative;
+	width: 100%;
+	padding-left: 25px;
+	display: inline-block;
+}
+#choicesAdmin div{
+	margin-bottom: 15px;
+	float: left;
+	margin-right: 2%;
+}
+#choicesSegundaLinea div{
+	margin-bottom: 0;
+	height: 35px;
+}
+#choicesSegundaLinea{
+	width: 100%;
+	display: inline-block;
+}
+#choicesSegundaLinea div label{
+	margin-right: 10px;
+}
+.dropdown{
+}
+#choicesSegundaLinea div select{	
+	width: 100%;
+}
+#botonAlumno{
+	margin-bottom: 7px;
+	float: left;
+}	
+#containerGrafico{
+	margin-bottom: 20px;
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 68%;
+}
+/* Login Success */
+#datosUsuario tr:not(:first-child) td:nth-child(2){
+    text-align: left;
+}
+#datosUsuario tr:nth-child(even){
+	background-color: #ccc;
+}
+#datosUsuario tr:nth-child(odd){
+	background-color: white;
+}
+#datosUsuario tr:nth-child(1){
+	background: url(images/fondo-azul.png) repeat;
+	color: white;
+}
+#datosUsuario th,  #datosUsuario td{
+	border: 2px solid #818181
+}
+#datosUsuario table {
+	margin-top: 20px;
+	border-collapse:collapse;
+}
+.legendout {
+	opacity: 0;
+	content: none;
+}
+.data_table{
+	position: relative;
+	float: left;
+	text-align: center;
+}
+.legend table{
+	border: none;
+}
+.spacer{
+	height: 25px;
+	background-color: transparent !important;
+}	
+#containerGraficoAlumno{
+	margin-bottom: 20px;
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 75%;
+}
+#choices{
+	padding-bottom: 10px;
+	margin-bottom: 20px; 
+	border-bottom:3px dashed #ccc;
+	position: relative;
+	width: 100%;
+	padding-left: 25px;
+	display: inline-block;
+}
+#choices div{
+	margin-bottom: 10px;
+	float: left;
+	margin-right: 2%;
+}
+#grafico{
+	width: 100%;
+	height: 100%;
+}	
+#saludo{
+	margin-top: 3%;
+}
+.containerLogout{
+	position:absolute;
+	top: 30px;
+	right: 30px;
+}
+.conBarraArriba .containerLogout{
+	position:absolute;
+	top: 90px;
+	right: 30px;
+}
+.delete{
+	margin-left: 3px;
+	float: right;
+	height: 16px;
+	width: auto;
+}
+.delete:hover{
+	cursor: pointer;
+}
+/*
+#choices div:nth-child(2){
+	border-bottom:3px dashed #ccc;	
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+}
+*/
+/* Cambios guardados */
+#centrar{
+	position:absolute;
+	top:50%;
+	width:100%;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:20px;
+}
+/*** BARRA ARRIBA ***/
+#barraArriba{ 
+	min-width: 1030px;
+	position: relative;
+	width: 100%;
+	background: #001F3F;
+	/*-webkit-box-shadow: 0px 4px 5px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow:    0px 4px 5px rgba(50, 50, 50, 0.5);
+	box-shadow:         0px 4px 5px rgba(50, 50, 50, 0.5);*/
+	top: 0px;
+	font-weight: 100;
+	margin-bottom: 30px;
+}
+#barraArriba #menu{
+	list-style: none;
+    display: table;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+#barraArriba #menu li{
+	height: 60px;
+    line-height: 60px;
+	display: inline;
+	display: table-cell;
+    text-align: center;
+    white-space: nowrap;
+}
+#barraArriba #menu li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform:capitalize;
+	letter-spacing:4px;	
+}
+/*** BARRA LATERAL ***/
+#barraLateral{
+	position: absolute; 
+	min-height: 300px;
+	width: 250px;
+	background: #001F3F;
+	left: -270px;
+	-webkit-box-shadow: 3px 3px 6px #000000;
+	box-shadow: 3px 3px 6px #000000;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	font-size:35px;
+	font-weight: 100;
+	z-index: 10;
+}
+#barraLateral #menu{
+	padding:10% 20px;
+	list-style:none;
+	float:right;
+	text-align:right;
+}
+#barraLateral #menu li{
+	width:100%;
+	text-align:right;
+	display: table;
+}
+#barraLateral #menu li a{
+	display: table-cell;
+	vertical-align: middle;
+	text-decoration: none;
+	color: #fff;
+	text-transform:capitalize;
+	letter-spacing:4px;	
+}
+#barraLateral:hover, .salir {
+	left: -10px;
+}
+
+/* Horario */
+#botonesCambiarYear div{
+	display: inline;
+	padding-left: 20px;
+}
+#botonesCambiarYear div input{
+	vertical-align: text-top;
+	margin: 1px;
+}
+#descripcionHorario{
+	position: relative;
+	font-weight: normal;
+}
+#tablaHorario{
+	position: relative;
+	width: 100%;
+	height: 70%;
+	margin-top: 1%;	
+}
+.verde{
+	background: #009900;
+	border: 3px solid black !important;
+}
+.raya{
+	border-bottom: 3px solid #009900 !important;
+}
+#tablaHorario th{
+	
+}
+#tablaHorario th,  #tablaHorario td{
+	border: 2px solid #3c3c3c;
+	text-align: center;
+}
+#tablaHorario {
+	border-collapse:collapse;
+}
+/*Horario Admin*/
+#botonesCambiar div{
+	display: inline;
+	padding-right: 25px;
+}
+#formaOculta{
+	position: relative;
+}
+#botonHorarioAdmin{
+	margin-right: 20px;
+}
+.cupos{
+	font-weight: normal;
+	color: black;
+	font-size: 2em;
+}
+/* Informacion*/
+.tituloInfo{
+	margin-top: 40px;
+}
+#informacion h4{
+	margin-left: 30px;
+}
+#informacion p{
+	margin-left: 60px;
+	margin-bottom: 40px;
+}
+.linkAzul{
+	text-decoration: none;
+	color: blue;	
+}
+#informacion{
+	text-align: justify;
+	position: relative;
+	margin-top: 2%;
+	line-height: 30px;
+	font-size:20px;
+	padding-bottom: 30px;
+}
+#mas, #masInfo{
+	margin-left: 25px;
+	text-decoration: none;
+	color: blue;
+}
+#break{ 
+	visibility:hidden; 
+	margin-bottom:-25px; 
+}
+
+/* Index */
+#bodyIndex{
+	padding: 0;
+	min-width: 1000px;
+}
+#barraHorizontal{
+	position:relative;
+	top:50%;
+	width:100%;
+	height:150px;
+	background:rgba(0, 21, 53, 0.9);	
+}
+#menuIndex{
+	position:absolute;
+	width:90%;
+	margin-top:55px;
+	margin-left:5%;
+	list-style:none;
+	padding:0;	
+	display: table;
+  	table-layout: fixed;
+}
+#menuIndex li{
+	display: table-cell;
+  	width: auto;
+	text-align:center;
+}
+#menuIndex li a{
+	font-size:35px;
+	letter-spacing:4px;
+	text-decoration: none;
+	color: #fff;
+	text-transform:capitalize;	
+}
+#imgPreu{
+	font-size: 3em;
+	display: block;
+	position:relative;
+	top:10%;
+	padding-left:8%;
+}
+#imgNombre{
+	font-size: 3em;
+	position:relative;
+	text-align: right;
+	display: block;
+	top:30%;
+	padding-right:8%;	
+}
+#imgPreu span, #imgNombre span{
+	font-family: 'Courgette', cursive;
+	color: #2a2a2a;
+}
+#imgPreu span, #imgNombre span{
+	padding: 10px;
+	background: rgba(170,170,190, 0.6);
+}

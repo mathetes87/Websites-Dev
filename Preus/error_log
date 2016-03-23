@@ -1,0 +1,325 @@
+[28-Mar-2013 13:59:11] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/preujesu/public_html/index.php:7) in /home/preujesu/public_html/index.php on line 18
+[28-Mar-2013 13:59:11] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/preujesu/public_html/index.php:7) in /home/preujesu/public_html/index.php on line 18
+[28-Mar-2013 14:02:48] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/preujesu/public_html/horario.php:7) in /home/preujesu/public_html/includes/botonLogout.php on line 2
+[28-Mar-2013 14:02:48] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/preujesu/public_html/horario.php:7) in /home/preujesu/public_html/includes/botonLogout.php on line 2
+[28-Mar-2013 15:24:14] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'preujesu_preujesu'@'localhost' (using password: YES) in /home/preujesu/public_html/includes/conectarDB.php on line 10
+[28-Mar-2013 15:35:24] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'preujesu_preujesu'@'valiant.websitewelcome.com' (using password: YES) in /home/preujesu/public_html/includes/conectarDB.php on line 10
+[28-Mar-2013 15:35:50] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'preujesu_preujesu'@'valiant.websitewelcome.com' (using password: YES) in /home/preujesu/public_html/includes/conectarDB.php on line 10
+[28-Mar-2013 15:36:01] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'preujesusgh.c' (25) in /home/preujesu/public_html/includes/conectarDB.php on line 10
+[28-Mar-2013 15:36:27] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'http' (25) in /home/preujesu/public_html/includes/conectarDB.php on line 10
+[28-Mar-2013 15:36:44] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'preujesu_preujesu'@'valiant.websitewelcome.com' (using password: YES) in /home/preujesu/public_html/includes/conectarDB.php on line 10
+[28-Mar-2013 15:37:50] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'preujesu_preujes'@'valiant.websitewelcome.com' (using password: YES) in /home/preujesu/public_html/includes/conectarDB.php on line 10
+[28-Mar-2013 15:39:26] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preujesu/public_html/checklogin.php:21) in /home/preujesu/public_html/checklogin.php on line 28
+[28-Mar-2013 15:39:26] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preujesu/public_html/checklogin.php:21) in /home/preujesu/public_html/checklogin.php on line 29
+[28-Mar-2013 15:39:26] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preujesu/public_html/checklogin.php:21) in /home/preujesu/public_html/checklogin.php on line 31
+[28-Mar-2013 15:39:40] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preujesu/public_html/checklogin.php:21) in /home/preujesu/public_html/checklogin.php on line 28
+[28-Mar-2013 15:39:40] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preujesu/public_html/checklogin.php:21) in /home/preujesu/public_html/checklogin.php on line 29
+[28-Mar-2013 15:39:40] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preujesu/public_html/checklogin.php:21) in /home/preujesu/public_html/checklogin.php on line 31
+[28-Mar-2013 15:40:38] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preujesu/public_html/checklogin.php:21) in /home/preujesu/public_html/checklogin.php on line 29
+[28-Mar-2013 15:40:38] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preujesu/public_html/checklogin.php:21) in /home/preujesu/public_html/checklogin.php on line 31
+[28-Mar-2013 15:41:48] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preujesu/public_html/admin.php:8) in /home/preujesu/public_html/importar_excel/index.php on line 9
+[28-Mar-2013 15:42:33] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/preujesu/public_html/estadisticas.php on line 102
+[28-Mar-2013 15:42:33] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/preujesu/public_html/estadisticas.php on line 102
+[28-Mar-2013 15:42:33] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/preujesu/public_html/estadisticas.php on line 102
+[28-Mar-2013 15:46:40] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/preujesu/public_html/login_success.php on line 64
+[28-Mar-2013 15:47:40] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preujesu/public_html/procesarCambiosAlumno.php:7) in /home/preujesu/public_html/procesarCambiosAlumno.php on line 21
+[30-Mar-2013 15:13:09] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/preujesu/public_html/login_success.php on line 31
+[30-Mar-2013 15:13:30] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/preujesu/public_html/login_success.php on line 31
+[30-Mar-2013 15:26:06] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/preujesu/public_html/login_success.php on line 31
+[31-Mar-2013 08:00:12] PHP Parse error:  syntax error, unexpected T_STRING in /home/preujesu/public_html/checklogin.php on line 41
+[07-Apr-2013 09:48:09] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'preujesu_preujes'@'valiant.websitewelcome.com' (using password: YES) in /home/mathetes/public_html/includes/conectarDB.php on line 10
+[07-Apr-2013 09:48:51] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'preujesu_preujes'@'valiant.websitewelcome.com' (using password: YES) in /home/mathetes/public_html/includes/conectarDB.php on line 10
+[10-Apr-2013 08:26:07] PHP Fatal error:  Call to undefined function  mysql_fetch_all() in /home/mathetes/public_html/alumnos.php on line 27
+[10-Apr-2013 08:51:07] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/mathetes/public_html/alumnos.php on line 68
+[10-Apr-2013 11:30:04] PHP Parse error:  syntax error, unexpected T_STRING in /home/mathetes/public_html/estadisticas.php on line 64
+[10-Apr-2013 11:30:05] PHP Parse error:  syntax error, unexpected T_STRING in /home/mathetes/public_html/estadisticas.php on line 64
+[11-Apr-2013 12:26:27] PHP Parse error:  syntax error, unexpected '<' in /home/mathetes/public_html/estadisticas.php on line 86
+[28-Apr-2013 22:08:52] PHP Parse error:  syntax error, unexpected '.' in /home/mathetes/public_html/alumnos.php on line 65
+[28-Apr-2013 22:10:26] PHP Parse error:  syntax error, unexpected T_FOR, expecting ',' or ';' in /home/mathetes/public_html/alumnos.php on line 66
+[28-Apr-2013 22:47:18] PHP Fatal error:  Call to undefined function  hello() in /home/mathetes/public_html/alumnos.php on line 107
+[29-Apr-2013 10:42:29] PHP Parse error:  syntax error, unexpected ':', expecting ';' in /home/mathetes/public_html/alumnos.php on line 90
+[29-Apr-2013 10:43:03] PHP Parse error:  syntax error, unexpected T_INC, expecting ')' in /home/mathetes/public_html/alumnos.php on line 90
+[29-Apr-2013 10:46:57] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/mathetes/public_html/alumnos.php on line 91
+[29-Apr-2013 12:25:01] PHP Parse error:  syntax error, unexpected T_STRING in /home/mathetes/public_html/alumnos.php on line 54
+[29-Apr-2013 12:28:41] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/mathetes/public_html/alumnos.php on line 50
+[29-Apr-2013 12:31:03] PHP Parse error:  syntax error, unexpected T_STRING in /home/mathetes/public_html/alumnos.php on line 54
+[29-Apr-2013 12:31:22] PHP Parse error:  syntax error, unexpected T_STRING in /home/mathetes/public_html/alumnos.php on line 54
+[04-May-2013 12:46:30] PHP Parse error:  syntax error, unexpected '*', expecting ')' in /home/mathetes/public_html/estadisticas.php on line 48
+[04-May-2013 12:46:38] PHP Parse error:  syntax error, unexpected '*', expecting ')' in /home/mathetes/public_html/estadisticas.php on line 48
+[04-May-2013 12:46:40] PHP Parse error:  syntax error, unexpected '*', expecting ')' in /home/mathetes/public_html/estadisticas.php on line 48
+[04-May-2013 12:46:45] PHP Parse error:  syntax error, unexpected '*', expecting ')' in /home/mathetes/public_html/estadisticas.php on line 48
+[18-May-2013 18:09:27] PHP Fatal error:  Call to undefined function  mysql_fetch_all() in /home/mathetes/public_html/includes/mailAutomatico.php on line 7
+[19-May-2013 15:14:27] PHP Fatal error:  Cannot use string offset as an array in /home/mathetes/public_html/includes/mailAutomatico.php on line 67
+[19-May-2013 15:19:21] PHP Fatal error:  Cannot use string offset as an array in /home/mathetes/public_html/includes/mailAutomatico.php on line 67
+[23-May-2013 16:25:34] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/mathetes/public_html/includes/chooseYear.php on line 17
+[28-May-2013 16:05:11] PHP Parse error:  syntax error, unexpected '{' in /home/mathetes/public_html/agregarAlumno.php on line 12
+[28-May-2013 16:06:34] PHP Fatal error:  Cannot break/continue 1 level in /home/mathetes/public_html/agregarAlumno.php on line 26
+[28-May-2013 16:17:19] PHP Parse error:  syntax error, unexpected '<' in /home/mathetes/public_html/agregarAlumno.php on line 13
+[28-May-2013 16:18:23] PHP Parse error:  syntax error, unexpected '<' in /home/mathetes/public_html/agregarAlumno.php on line 14
+[28-May-2013 16:18:30] PHP Parse error:  syntax error, unexpected '<' in /home/mathetes/public_html/agregarAlumno.php on line 14
+[28-May-2013 16:29:12] PHP Parse error:  syntax error, unexpected '}' in /home/mathetes/public_html/agregarAlumno.php on line 34
+[28-May-2013 22:53:18] PHP Parse error:  syntax error, unexpected '(', expecting T_VARIABLE or '$' in /home/mathetes/public_html/admin.php on line 190
+[28-May-2013 22:53:32] PHP Parse error:  syntax error, unexpected '(', expecting T_VARIABLE or '$' in /home/mathetes/public_html/admin.php on line 190
+[28-May-2013 22:59:24] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/mathetes/public_html/admin.php on line 190
+[28-May-2013 23:00:00] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/mathetes/public_html/admin.php on line 190
+[28-May-2013 23:00:06] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/mathetes/public_html/admin.php on line 190
+[28-May-2013 23:00:40] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/mathetes/public_html/admin.php on line 190
+[28-May-2013 23:08:47] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/mathetes/public_html/admin.php on line 118
+[28-May-2013 23:09:13] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/mathetes/public_html/admin.php on line 118
+[28-May-2013 23:11:46] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/mathetes/public_html/admin.php on line 118
+[28-May-2013 23:12:21] PHP Warning:  mysqli_stmt_num_rows() expects parameter 1 to be mysqli_stmt, integer given in /home/mathetes/public_html/admin.php on line 118
+[28-May-2013 23:21:30] PHP Parse error:  syntax error, unexpected '}' in /home/mathetes/public_html/agregarAlumno.php on line 39
+[28-May-2013 23:25:54] PHP Parse error:  syntax error, unexpected ';' in /home/mathetes/public_html/agregarAlumno.php on line 31
+[28-May-2013 23:30:23] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/mathetes/public_html/agregarAlumno.php on line 31
+[28-May-2013 23:34:32] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/mathetes/public_html/agregarAlumno.php on line 31
+[28-May-2013 23:34:49] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/mathetes/public_html/agregarAlumno.php on line 31
+[28-May-2013 23:35:15] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/mathetes/public_html/agregarAlumno.php on line 31
+[28-May-2013 23:39:08] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/mathetes/public_html/agregarAlumno.php on line 32
+[28-May-2013 23:43:35] PHP Parse error:  syntax error, unexpected '}' in /home/mathetes/public_html/agregarAlumno.php on line 38
+[28-May-2013 23:44:22] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/mathetes/public_html/agregarAlumno.php on line 32
+[28-May-2013 23:45:04] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/mathetes/public_html/agregarAlumno.php on line 32
+[28-May-2013 23:48:34] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/mathetes/public_html/agregarAlumno.php on line 32
+[28-May-2013 23:50:26] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/mathetes/public_html/agregarAlumno.php on line 32
+[28-May-2013 23:59:27] PHP Parse error:  syntax error, unexpected '{' in /home/mathetes/public_html/agregarAlumno.php on line 32
+[30-May-2013 21:56:49] PHP Fatal error:  Call to undefined function  apprise() in /home/mathetes/public_html/importar_excel/index.php on line 47
+[30-May-2013 21:57:30] PHP Fatal error:  Call to undefined function  apprise() in /home/mathetes/public_html/importar_excel/index.php on line 47
+[30-May-2013 21:57:42] PHP Fatal error:  Call to undefined function  apprise() in /home/mathetes/public_html/importar_excel/index.php on line 47
+[30-May-2013 21:59:11] PHP Fatal error:  Call to undefined function  apprise() in /home/mathetes/public_html/importar_excel/index.php on line 47
+[30-May-2013 22:00:16] PHP Fatal error:  Call to undefined function  apprise() in /home/mathetes/public_html/importar_excel/index.php on line 52
+[30-May-2013 22:01:03] PHP Fatal error:  Call to undefined function  apprise() in /home/mathetes/public_html/importar_excel/index.php on line 53
+[04-Jun-2013 05:58:54] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mathetes/public_html/admin.php:8) in /home/mathetes/public_html/includes/isAdmin.php on line 8
+[09-Jun-2013 21:22:01] PHP Fatal error:  Call to undefined function  alert() in /home/mathetes/public_html/importar_excel/index.php on line 91
+[09-Jun-2013 21:22:18] PHP Parse error:  syntax error, unexpected T_ECHO in /home/mathetes/public_html/importar_excel/index.php on line 91
+[09-Jun-2013 21:22:20] PHP Parse error:  syntax error, unexpected T_ECHO in /home/mathetes/public_html/importar_excel/index.php on line 91
+[15-Jun-2013 12:42:46] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mathetes/public_html/admin.php:8) in /home/mathetes/public_html/includes/isAdmin.php on line 8
+[15-Jun-2013 12:42:54] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mathetes/public_html/admin.php:8) in /home/mathetes/public_html/includes/isAdmin.php on line 8
+[15-Jun-2013 12:52:14] PHP Parse error:  syntax error, unexpected T_VAR in /home/mathetes/public_html/login_success.php on line 88
+[15-Jun-2013 12:53:33] PHP Parse error:  syntax error, unexpected T_VAR in /home/mathetes/public_html/login_success.php on line 88
+[15-Jun-2013 12:53:34] PHP Parse error:  syntax error, unexpected T_VAR in /home/mathetes/public_html/login_success.php on line 88
+[15-Jun-2013 14:55:19] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mathetes/public_html/admin.php:8) in /home/mathetes/public_html/includes/isAdmin.php on line 8
+[15-Jun-2013 15:23:05] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mathetes/public_html/admin.php:8) in /home/mathetes/public_html/includes/isAdmin.php on line 8
+[15-Jun-2013 15:25:53] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mathetes/public_html/admin.php:8) in /home/mathetes/public_html/includes/isAdmin.php on line 8
+[15-Jun-2013 16:32:03] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mathetes/public_html/admin.php:8) in /home/mathetes/public_html/includes/isAdmin.php on line 8
+[17-Jun-2013 11:49:53] PHP Warning:  include_once(infoProfesor.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/mathetes/public_html/estadisticas.php on line 30
+[17-Jun-2013 11:49:53] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'infoProfesor.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mathetes/public_html/estadisticas.php on line 30
+[17-Jun-2013 11:54:56] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /home/mathetes/public_html/index.php on line 17
+[18-Jun-2013 15:41:05] PHP Warning:  include_once(conectarDB.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/mathetes/public_html/agregarAlumno.php on line 2
+[18-Jun-2013 15:41:05] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'conectarDB.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mathetes/public_html/agregarAlumno.php on line 2
+[18-Jun-2013 15:41:05] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'mathetes'@'localhost' (using password: NO) in /home/mathetes/public_html/agregarAlumno.php on line 25
+[18-Jun-2013 15:41:05] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/mathetes/public_html/agregarAlumno.php on line 25
+[18-Jun-2013 15:41:05] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/mathetes/public_html/agregarAlumno.php on line 26
+[18-Jun-2013 15:41:05] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'mathetes'@'localhost' (using password: NO) in /home/mathetes/public_html/agregarAlumno.php on line 31
+[18-Jun-2013 15:41:05] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/mathetes/public_html/agregarAlumno.php on line 31
+[20-Jun-2013 12:59:53] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/mathetes/public_html/procesarCambiosAlumno.php on line 38
+[20-Jun-2013 13:01:07] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/mathetes/public_html/procesarCambiosAlumno.php on line 38
+[20-Jun-2013 13:10:20] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mathetes/public_html/admin.php:8) in /home/mathetes/public_html/includes/isAdmin.php on line 9
+[20-Jun-2013 14:07:02] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mathetes/public_html/procesarCambiosAlumno.php:7) in /home/mathetes/public_html/procesarCambiosAlumno.php on line 63
+[09-Jul-2013 12:40:08] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/mathetes/public_html/includes/conectarDB.php on line 10
+[09-Jul-2013 12:41:27] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/mathetes/public_html/includes/conectarDB.php on line 10
+[09-Jul-2013 12:42:53] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/mathetes/public_html/includes/conectarDB.php on line 10
+[09-Jul-2013 12:42:56] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/mathetes/public_html/includes/conectarDB.php on line 10
+[09-Jul-2013 12:42:59] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/mathetes/public_html/includes/conectarDB.php on line 10
+[09-Jul-2013 12:44:09] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/mathetes/public_html/includes/conectarDB.php on line 10
+[09-Jul-2013 12:45:37] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/mathetes/public_html/includes/conectarDB.php on line 10
+[17-Jul-2013 13:51:54] PHP Warning:  include_once(includes/tablaHorarioProc.html) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/mathetes/public_html/horarioAdmin.php on line 55
+[17-Jul-2013 13:51:54] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'includes/tablaHorarioProc.html' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mathetes/public_html/horarioAdmin.php on line 55
+[17-Jul-2013 14:32:22] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/mathetes/public_html/includes/chooseYear.php on line 4
+[18-Jul-2013 17:22:04] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mathetes/public_html/perfil.php:7) in /home/mathetes/public_html/includes/isLogueado.php on line 8
+[18-Jul-2013 17:22:06] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mathetes/public_html/perfil.php:7) in /home/mathetes/public_html/includes/isLogueado.php on line 8
+[18-Jul-2013 17:22:10] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mathetes/public_html/perfil.php:7) in /home/mathetes/public_html/includes/isLogueado.php on line 8
+[18-Jul-2013 17:22:29] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mathetes/public_html/perfil.php:7) in /home/mathetes/public_html/includes/isLogueado.php on line 8
+[19-Jul-2013 10:52:59] PHP Warning:  require_once(FirePHPCore/FirePHP.class.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/mathetes/public_html/index.php on line 17
+[19-Jul-2013 10:52:59] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'FirePHPCore/FirePHP.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mathetes/public_html/index.php on line 17
+[19-Jul-2013 11:03:46] PHP Fatal error:  Uncaught exception 'Exception' with message 'Headers already sent in /home/mathetes/public_html/horarioAdmin.php on line 8. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.' in /home/mathetes/public_html/FirePHPCore/FirePHP.class.php:1178
+Stack trace:
+#0 /home/mathetes/public_html/FirePHPCore/FirePHP.class.php(757): FirePHP->newException('Headers already...')
+#1 /home/mathetes/public_html/FirePHPCore/FirePHP.class.php(584): FirePHP->fb(Array, 'Iterators', 'LOG', Array)
+#2 /home/mathetes/public_html/horarioAdmin.php(25): FirePHP->log(Array, 'Iterators')
+#3 {main}
+  thrown in /home/mathetes/public_html/FirePHPCore/FirePHP.class.php on line 1178
+[19-Jul-2013 11:04:15] PHP Fatal error:  Uncaught exception 'Exception' with message 'Headers already sent in /home/mathetes/public_html/horarioAdmin.php on line 8. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.' in /home/mathetes/public_html/FirePHPCore/FirePHP.class.php:1178
+Stack trace:
+#0 /home/mathetes/public_html/FirePHPCore/FirePHP.class.php(757): FirePHP->newException('Headers already...')
+#1 /home/mathetes/public_html/FirePHPCore/FirePHP.class.php(584): FirePHP->fb(Array, 'Iterators', 'LOG', Array)
+#2 /home/mathetes/public_html/horarioAdmin.php(23): FirePHP->log(Array, 'Iterators')
+#3 {main}
+  thrown in /home/mathetes/public_html/FirePHPCore/FirePHP.class.php on line 1178
+[19-Jul-2013 11:04:49] PHP Fatal error:  Uncaught exception 'Exception' with message 'Headers already sent in /home/mathetes/public_html/horarioAdmin.php on line 8. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.' in /home/mathetes/public_html/FirePHPCore/FirePHP.class.php:1178
+Stack trace:
+#0 /home/mathetes/public_html/FirePHPCore/FirePHP.class.php(757): FirePHP->newException('Headers already...')
+#1 /home/mathetes/public_html/FirePHPCore/FirePHP.class.php(584): FirePHP->fb(Array, 'Iterators', 'LOG', Array)
+#2 /home/mathetes/public_html/horarioAdmin.php(23): FirePHP->log(Array, 'Iterators')
+#3 {main}
+  thrown in /home/mathetes/public_html/FirePHPCore/FirePHP.class.php on line 1178
+[19-Jul-2013 11:59:13] PHP Fatal error:  Uncaught exception 'Exception' with message 'Headers already sent in /home/mathetes/public_html/horarioAdmin.php on line 8. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.' in /home/mathetes/public_html/FirePHPCore/FirePHP.class.php:1178
+Stack trace:
+#0 /home/mathetes/public_html/FirePHPCore/FirePHP.class.php(757): FirePHP->newException('Headers already...')
+#1 /home/mathetes/public_html/FirePHPCore/FirePHP.class.php(584): FirePHP->fb('Mensaje enviado...', 'Mensaje', 'LOG', Array)
+#2 /home/mathetes/public_html/horarioAdmin.php(21): FirePHP->log('Mensaje enviado...', 'Mensaje')
+#3 {main}
+  thrown in /home/mathetes/public_html/FirePHPCore/FirePHP.class.php on line 1178
+[19-Jul-2013 12:00:46] PHP Fatal error:  Uncaught exception 'Exception' with message 'Headers already sent in /home/mathetes/public_html/horarioAdmin.php on line 8. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.' in /home/mathetes/public_html/FirePHPCore/FirePHP.class.php:1178
+Stack trace:
+#0 /home/mathetes/public_html/FirePHPCore/FirePHP.class.php(757): FirePHP->newException('Headers already...')
+#1 /home/mathetes/public_html/FirePHPCore/FirePHP.class.php(584): FirePHP->fb('Mensaje enviado...', 'Mensaje', 'LOG', Array)
+#2 /home/mathetes/public_html/horarioAdmin.php(22): FirePHP->log('Mensaje enviado...', 'Mensaje')
+#3 {main}
+  thrown in /home/mathetes/public_html/FirePHPCore/FirePHP.class.php on line 1178
+[19-Jul-2013 12:02:39] PHP Fatal error:  Uncaught exception 'Exception' with message 'Headers already sent in /home/mathetes/public_html/horarioAdmin.php on line 8. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.' in /home/mathetes/public_html/FirePHPCore/FirePHP.class.php:1178
+Stack trace:
+#0 /home/mathetes/public_html/FirePHPCore/FirePHP.class.php(757): FirePHP->newException('Headers already...')
+#1 /home/mathetes/public_html/FirePHPCore/FirePHP.class.php(584): FirePHP->fb('Mensaje enviado...', 'Mensaje', 'LOG', Array)
+#2 /home/mathetes/public_html/horarioAdmin.php(21): FirePHP->log('Mensaje enviado...', 'Mensaje')
+#3 {main}
+  thrown in /home/mathetes/public_html/FirePHPCore/FirePHP.class.php on line 1178
+[19-Jul-2013 12:04:05] PHP Fatal error:  Uncaught exception 'Exception' with message 'Headers already sent in /home/mathetes/public_html/horarioAdmin.php on line 8. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.' in /home/mathetes/public_html/FirePHPCore/FirePHP.class.php:1178
+Stack trace:
+#0 /home/mathetes/public_html/FirePHPCore/FirePHP.class.php(757): FirePHP->newException('Headers already...')
+#1 /home/mathetes/public_html/FirePHPCore/FirePHP.class.php(584): FirePHP->fb('Mensaje enviado...', 'Mensaje', 'LOG', Array)
+#2 /home/mathetes/public_html/horarioAdmin.php(22): FirePHP->log('Mensaje enviado...', 'Mensaje')
+#3 {main}
+  thrown in /home/mathetes/public_html/FirePHPCore/FirePHP.class.php on line 1178
+[19-Jul-2013 12:04:52] PHP Fatal error:  Call to a member function log() on a non-object in /home/mathetes/public_html/horarioAdmin.php on line 20
+[19-Jul-2013 12:06:59] PHP Fatal error:  Uncaught exception 'Exception' with message 'Headers already sent in /home/mathetes/public_html/horarioAdmin.php on line 8. Cannot send log data to FirePHP. You must have Output Buffering enabled via ob_start() or output_buffering ini directive.' in /home/mathetes/public_html/FirePHPCore/FirePHP.class.php:1178
+Stack trace:
+#0 /home/mathetes/public_html/FirePHPCore/FirePHP.class.php(757): FirePHP->newException('Headers already...')
+#1 /home/mathetes/public_html/FirePHPCore/FirePHP.class.php(584): FirePHP->fb('Mensaje enviado...', 'Mensaje', 'LOG', Array)
+#2 /home/mathetes/public_html/horarioAdmin.php(19): FirePHP->log('Mensaje enviado...', 'Mensaje')
+#3 {main}
+  thrown in /home/mathetes/public_html/FirePHPCore/FirePHP.class.php on line 1178
+[22-Jul-2013 11:31:06] PHP Fatal error:  Cannot redeclare mysql_fetch_all() (previously declared in /home/mathetes/public_html/admin.php:53) in /home/mathetes/public_html/includes/mysql_fetch_all.php on line 7
+[23-Jul-2013 12:24:50] PHP Fatal error:  Cannot redeclare mysql_fetch_all() (previously declared in /home/mathetes/public_html/apoderados.php:132) in /home/mathetes/public_html/includes/mysql_fetch_all.php on line 7
+[23-Jul-2013 15:13:12] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'preujesu_preujesu'@'localhost' (using password: YES) in /home/preujesu/public_html/includes/conectarDB.php on line 10
+[24-Jul-2013 17:22:14] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /home/preujesu/public_html/emails.php on line 40
+[27-Jul-2013 09:21:27] PHP Fatal error:  Call to undefined function  pathtoarray() in /home/mathetes/public_html/test/material.php on line 10
+[27-Jul-2013 10:07:53] PHP Fatal error:  Call to undefined function  arra() in /home/mathetes/public_html/test/material.php on line 21
+[27-Jul-2013 10:48:50] PHP Warning:  urlencode() expects parameter 1 to be string, array given in /home/mathetes/public_html/test/material.php on line 32
+[27-Jul-2013 10:48:50] PHP Warning:  array_merge_recursive() [<a href='function.array-merge-recursive'>function.array-merge-recursive</a>]: Argument #2 is not an array in /home/mathetes/public_html/test/material.php on line 32
+[27-Jul-2013 10:48:50] PHP Warning:  urlencode() expects parameter 1 to be string, array given in /home/mathetes/public_html/test/material.php on line 32
+[27-Jul-2013 10:48:50] PHP Warning:  array_merge_recursive() [<a href='function.array-merge-recursive'>function.array-merge-recursive</a>]: Argument #1 is not an array in /home/mathetes/public_html/test/material.php on line 32
+[27-Jul-2013 10:48:50] PHP Warning:  array_merge_recursive() [<a href='function.array-merge-recursive'>function.array-merge-recursive</a>]: Argument #2 is not an array in /home/mathetes/public_html/test/material.php on line 32
+[27-Jul-2013 10:48:50] PHP Warning:  urlencode() expects parameter 1 to be string, array given in /home/mathetes/public_html/test/material.php on line 32
+[27-Jul-2013 10:48:50] PHP Warning:  array_merge_recursive() [<a href='function.array-merge-recursive'>function.array-merge-recursive</a>]: Argument #1 is not an array in /home/mathetes/public_html/test/material.php on line 32
+[27-Jul-2013 10:48:50] PHP Warning:  array_merge_recursive() [<a href='function.array-merge-recursive'>function.array-merge-recursive</a>]: Argument #2 is not an array in /home/mathetes/public_html/test/material.php on line 32
+[27-Jul-2013 10:48:50] PHP Warning:  urlencode() expects parameter 1 to be string, array given in /home/mathetes/public_html/test/material.php on line 32
+[27-Jul-2013 10:48:50] PHP Warning:  array_merge_recursive() [<a href='function.array-merge-recursive'>function.array-merge-recursive</a>]: Argument #1 is not an array in /home/mathetes/public_html/test/material.php on line 32
+[27-Jul-2013 10:48:50] PHP Warning:  array_merge_recursive() [<a href='function.array-merge-recursive'>function.array-merge-recursive</a>]: Argument #2 is not an array in /home/mathetes/public_html/test/material.php on line 32
+[27-Jul-2013 10:48:50] PHP Warning:  urlencode() expects parameter 1 to be string, array given in /home/mathetes/public_html/test/material.php on line 32
+[27-Jul-2013 10:48:50] PHP Warning:  array_merge_recursive() [<a href='function.array-merge-recursive'>function.array-merge-recursive</a>]: Argument #1 is not an array in /home/mathetes/public_html/test/material.php on line 32
+[27-Jul-2013 10:48:50] PHP Warning:  array_merge_recursive() [<a href='function.array-merge-recursive'>function.array-merge-recursive</a>]: Argument #2 is not an array in /home/mathetes/public_html/test/material.php on line 32
+[27-Jul-2013 10:48:50] PHP Warning:  urlencode() expects parameter 1 to be string, array given in /home/mathetes/public_html/test/material.php on line 32
+[27-Jul-2013 10:48:50] PHP Warning:  array_merge_recursive() [<a href='function.array-merge-recursive'>function.array-merge-recursive</a>]: Argument #1 is not an array in /home/mathetes/public_html/test/material.php on line 32
+[27-Jul-2013 10:48:50] PHP Warning:  array_merge_recursive() [<a href='function.array-merge-recursive'>function.array-merge-recursive</a>]: Argument #2 is not an array in /home/mathetes/public_html/test/material.php on line 32
+[27-Jul-2013 16:52:21] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/mathetes/public_html/test/material.php on line 51
+[27-Jul-2013 22:11:01] PHP Fatal error:  Call to undefined method SplFileInfo::is_dir() in /home/mathetes/public_html/test/material.php on line 34
+[27-Jul-2013 22:13:26] PHP Parse error:  syntax error, unexpected ';', expecting '(' in /home/mathetes/public_html/test/material.php on line 24
+[01-Aug-2013 10:33:49] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/mathetes/public_html/test/alumnoComun.php on line 11
+[01-Aug-2013 10:35:53] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/mathetes/public_html/test/includes/alumno2Alumno.php on line 9
+[01-Aug-2013 11:22:05] PHP Warning:  include_once(mailAutomatico.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/mathetes/public_html/test/apoderados.php on line 49
+[01-Aug-2013 11:22:05] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'mailAutomatico.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mathetes/public_html/test/apoderados.php on line 49
+[03-Aug-2013 12:36:41] PHP Parse error:  syntax error, unexpected '[' in /home/mathetes/public_html/test/alumnoComun.php on line 21
+[05-Aug-2013 16:26:56] PHP Fatal error:  Unsupported operand types in /home/mathetes/public_html/test/estadisticas.php on line 202
+[05-Aug-2013 16:28:08] PHP Fatal error:  Unsupported operand types in /home/mathetes/public_html/test/estadisticas.php on line 202
+[05-Aug-2013 16:30:25] PHP Fatal error:  Unsupported operand types in /home/mathetes/public_html/test/estadisticas.php on line 202
+[05-Aug-2013 17:16:58] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 212
+[05-Aug-2013 17:16:58] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 212
+[05-Aug-2013 17:16:58] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 212
+[05-Aug-2013 17:16:58] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 212
+[05-Aug-2013 17:16:58] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 212
+[05-Aug-2013 17:31:03] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 212
+[05-Aug-2013 17:31:03] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 212
+[05-Aug-2013 17:31:03] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 212
+[05-Aug-2013 17:31:03] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 212
+[05-Aug-2013 17:31:03] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 212
+[05-Aug-2013 17:33:03] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 212
+[05-Aug-2013 17:33:03] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 212
+[05-Aug-2013 17:33:03] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 212
+[05-Aug-2013 17:33:03] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 212
+[05-Aug-2013 17:33:03] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 212
+[05-Aug-2013 17:33:54] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 212
+[05-Aug-2013 17:33:54] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 212
+[05-Aug-2013 17:33:54] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 212
+[05-Aug-2013 17:33:54] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 212
+[05-Aug-2013 17:33:54] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 212
+[09-Aug-2013 09:06:34] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 265
+[09-Aug-2013 09:06:34] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 265
+[09-Aug-2013 09:06:34] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 265
+[09-Aug-2013 09:06:34] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 265
+[09-Aug-2013 09:06:34] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 265
+[09-Aug-2013 09:06:34] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 265
+[09-Aug-2013 11:13:15] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 294
+[09-Aug-2013 11:13:15] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 268
+[09-Aug-2013 13:40:23] PHP Parse error:  syntax error, unexpected ';' in /home/mathetes/public_html/test/estadisticas.php on line 139
+[23-Aug-2013 15:19:03] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 339
+[23-Aug-2013 15:19:03] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 298
+[23-Aug-2013 15:19:03] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 268
+[23-Aug-2013 15:19:05] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 339
+[23-Aug-2013 15:19:05] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 298
+[23-Aug-2013 15:19:05] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 268
+[10-Oct-2013 15:14:22] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 339
+[10-Oct-2013 15:14:22] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 298
+[10-Oct-2013 15:14:22] PHP Warning:  Division by zero in /home/mathetes/public_html/test/estadisticas.php on line 268
+[12-Mar-2014 06:49:15] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'nachal_db'@'localhost' (using password: YES) in /home/nachal/public_html/includes/conectarDB.php on line 11
+[12-Mar-2014 06:53:09] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'nachalira'@'localhost' (using password: YES) in /home/nachal/public_html/includes/conectarDB.php on line 11
+[12-Mar-2014 06:54:18] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nachal/public_html/includes/infoProfesor.php:1) in /home/nachal/public_html/includes/isAdmin.php on line 9
+[12-Mar-2014 06:54:32] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nachal/public_html/includes/infoProfesor.php:1) in /home/nachal/public_html/includes/isAdmin.php on line 9
+[12-Mar-2014 06:54:38] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nachal/public_html/includes/infoProfesor.php:1) in /home/nachal/public_html/includes/isAdmin.php on line 9
+[12-Mar-2014 06:54:49] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nachal/public_html/includes/infoProfesor.php:1) in /home/nachal/public_html/includes/isAdmin.php on line 9
+[12-Mar-2014 06:59:32] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nachal/public_html/includes/infoProfesor.php:1) in /home/nachal/public_html/includes/isAdmin.php on line 9
+[12-Mar-2014 11:54:03] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nachal/public_html/includes/infoProfesor.php:1) in /home/nachal/public_html/includes/isAdmin.php on line 9
+[12-Mar-2014 11:55:22] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nachal/public_html/includes/infoProfesor.php:1) in /home/nachal/public_html/includes/isAdmin.php on line 9
+[16-Mar-2014 15:38:22] PHP Warning:  Division by zero in /home/nachal/public_html/estadisticas.php on line 338
+[16-Mar-2014 15:38:22] PHP Warning:  Division by zero in /home/nachal/public_html/estadisticas.php on line 297
+[16-Mar-2014 15:38:22] PHP Warning:  Division by zero in /home/nachal/public_html/estadisticas.php on line 267
+[16-Mar-2014 15:39:12] PHP Warning:  Division by zero in /home/nachal/public_html/estadisticas.php on line 338
+[16-Mar-2014 15:39:12] PHP Warning:  Division by zero in /home/nachal/public_html/estadisticas.php on line 297
+[16-Mar-2014 15:39:12] PHP Warning:  Division by zero in /home/nachal/public_html/estadisticas.php on line 267
+[20-Mar-2014 15:55:22] PHP Warning:  Division by zero in /home/nachal/public_html/estadisticas.php on line 338
+[20-Mar-2014 15:55:22] PHP Warning:  Division by zero in /home/nachal/public_html/estadisticas.php on line 297
+[20-Mar-2014 15:55:22] PHP Warning:  Division by zero in /home/nachal/public_html/estadisticas.php on line 338
+[20-Mar-2014 15:55:22] PHP Warning:  Division by zero in /home/nachal/public_html/estadisticas.php on line 297
+[20-Mar-2014 15:55:22] PHP Warning:  Division by zero in /home/nachal/public_html/estadisticas.php on line 338
+[20-Mar-2014 15:55:22] PHP Warning:  Division by zero in /home/nachal/public_html/estadisticas.php on line 297
+[20-Mar-2014 15:55:22] PHP Warning:  Division by zero in /home/nachal/public_html/estadisticas.php on line 338
+[20-Mar-2014 15:55:22] PHP Warning:  Division by zero in /home/nachal/public_html/estadisticas.php on line 297
+[20-Mar-2014 15:55:22] PHP Warning:  Division by zero in /home/nachal/public_html/estadisticas.php on line 338
+[20-Mar-2014 15:55:22] PHP Warning:  Division by zero in /home/nachal/public_html/estadisticas.php on line 297
+[20-Mar-2014 15:55:22] PHP Warning:  Division by zero in /home/nachal/public_html/estadisticas.php on line 267
+[20-Mar-2014 15:55:22] PHP Warning:  Division by zero in /home/nachal/public_html/estadisticas.php on line 267
+[20-Mar-2014 15:55:22] PHP Warning:  Division by zero in /home/nachal/public_html/estadisticas.php on line 267
+[20-Mar-2014 15:55:22] PHP Warning:  Division by zero in /home/nachal/public_html/estadisticas.php on line 267
+[20-Mar-2014 15:55:22] PHP Warning:  Division by zero in /home/nachal/public_html/estadisticas.php on line 267
+[20-Mar-2014 15:56:09] PHP Fatal error:  Call to undefined function  tendencia() in /home/nachal/public_html/estadisticas.php on line 141
+[28-Mar-2014 20:27:17] PHP Warning:  Division by zero in /home/nachal/public_html/emails.php on line 139
+[29-Mar-2014 20:14:14] PHP Fatal error:  Call to undefined function  alert() in /home/nachal/public_html/controles.php on line 147
+[07-Apr-2014 10:04:49] PHP Catchable fatal error:  Object of class RecursiveIteratorIterator could not be converted to string in /home/nachal/public_html/emails.php on line 61
+[04-Mar-2015 11:03:33 America/Chicago] PHP Warning:  include_once(alumnoComun.php): failed to open stream: No such file or directory in /home/nachal/public_html/login_success.php on line 20
+[04-Mar-2015 11:03:33 America/Chicago] PHP Warning:  include_once(): Failed opening 'alumnoComun.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/nachal/public_html/login_success.php on line 20
+[04-Mar-2015 11:21:14 America/Chicago] PHP Warning:  include_once(alumnoComun.php): failed to open stream: No such file or directory in /home/nachal/public_html/login_success.php on line 20
+[04-Mar-2015 11:21:14 America/Chicago] PHP Warning:  include_once(): Failed opening 'alumnoComun.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/nachal/public_html/login_success.php on line 20
+[04-Mar-2015 11:21:18 America/Chicago] PHP Warning:  include_once(alumnoComun.php): failed to open stream: No such file or directory in /home/nachal/public_html/login_success.php on line 20
+[04-Mar-2015 11:21:18 America/Chicago] PHP Warning:  include_once(): Failed opening 'alumnoComun.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/nachal/public_html/login_success.php on line 20
+[04-Mar-2015 11:22:11 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/nachal/public_html/alumnoComun.php on line 42
+[04-Mar-2015 11:25:05 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/nachal/public_html/alumnoComun.php on line 43
+[04-Mar-2015 11:29:00 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/nachal/public_html/alumnoComun.php on line 44
+[04-Mar-2015 11:29:18 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/nachal/public_html/alumnoComun.php on line 44
+[04-Mar-2015 11:29:38 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/nachal/public_html/alumnoComun.php on line 44
+[04-Mar-2015 11:37:41 America/Chicago] PHP Fatal error:  Cannot redeclare titulosTabla() (previously declared in /home/nachal/public_html/alumnoComun.php:134) in /home/nachal/public_html/alumnoComun.php on line 888
+[04-Mar-2015 11:38:51 America/Chicago] PHP Fatal error:  Cannot redeclare titulosTabla() (previously declared in /home/nachal/public_html/alumnoComun.php:134) in /home/nachal/public_html/alumnoComun.php on line 888
+[04-Mar-2015 11:38:55 America/Chicago] PHP Fatal error:  Cannot redeclare titulosTabla() (previously declared in /home/nachal/public_html/alumnoComun.php:134) in /home/nachal/public_html/alumnoComun.php on line 888
+[04-Mar-2015 12:06:30 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/nachal/public_html/alumnoComun.php on line 43
+[04-Mar-2015 12:06:45 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/nachal/public_html/alumnoComun.php on line 43
+[04-Mar-2015 12:07:00 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/nachal/public_html/alumnoComun.php on line 43
+[04-Mar-2015 12:07:40 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/nachal/public_html/alumnoComun.php on line 43
+[04-Mar-2015 12:11:16 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/nachal/public_html/alumnoComun.php on line 43
+[04-Mar-2015 12:12:12 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/nachal/public_html/alumnoComun.php on line 43
+[04-Mar-2015 12:15:04 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nachal/public_html/login_success.php:17) in /home/nachal/public_html/includes/isLogueado.php on line 9
+[04-Mar-2015 12:15:04 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/nachal/public_html/alumnoComun.php on line 43
+[20-Mar-2015 16:05:42 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nachal/public_html/login_success.php:17) in /home/nachal/public_html/includes/isLogueado.php on line 9
+[20-Mar-2015 16:05:42 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/nachal/public_html/alumnoComun.php on line 43
+[23-Mar-2015 16:37:29 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/nachal/public_html/alumnoComun.php on line 43
+[23-Mar-2015 16:49:17 America/Chicago] PHP Fatal error:  Call to undefined function titulosTabla() in /home/nachal/public_html/controles.php on line 66
+[24-Mar-2015 15:25:20 America/Chicago] PHP Parse error:  syntax error, unexpected '$controles' (T_VARIABLE) in /home/nachal/public_html/controles.php on line 114
+[30-Mar-2015 08:34:22 America/Chicago] PHP Catchable fatal error:  Argument 1 passed to RecursiveIteratorIterator::__construct() must implement interface Traversable, null given in /home/nachal/public_html/material.php on line 29
+[03-Apr-2015 12:35:55 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nachal/public_html/login_success.php:17) in /home/nachal/public_html/includes/isLogueado.php on line 10
+[03-Apr-2015 12:35:55 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/nachal/public_html/alumnoComun.php on line 43

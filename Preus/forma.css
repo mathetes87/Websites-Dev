@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* Perfil y agregar alumno */
+#divPerfil{
+	margin: 0 auto;
+	width: 80%;
+	max-width: 500px;
+	margin-bottom: 30px;
+}
+#containerBordePerfil{
+	padding: 15px 6%;
+	background: rgba( 240, 240, 240, .9 );
+}
+#containerBorde{
+}
+#tituloPerfil{	
+	text-transform:none;
+	margin-left: 10px;
+}
+#descripcionPerfil{
+	position: relative;	
+}
+form.wufoo{
+	left: 0;
+}
+.wufoo li {
+	width: 100%;
+}
+form li {
+	margin:0;
+	padding:15px 0 0 0;
+	clear:both;
+	position:relative;
+}
+form ul {
+	left: 0;
+	margin:0;
+	padding:0;
+	list-style-type:none
+}
+.desc{
+	color: #676767;
+	font-size: 1.2em;
+	line-height: 1.4em;
+}
+.field { 
+	display: inline-block; 
+	border: 1px dotted #ccc; 
+	padding: 5px 9px;
+	font-size: 1.2em;
+	line-height: 1.4em;
+	width:92%;
+}
+.textoRojo{ color: red !important; }
+.textoVerde{ color: green !important;}
+.textoNaranjo{ color: orange !important;}
+.bordeRojo{ border: 1px dashed  red; }
+.bordeVerde{ border: 1px dashed green; }
+
+.field:focus{ border-style: solid; border-color: #bababa; color: #444; }
+/* Agregar alumno */
+#fancyAlumno{
+	display: none; 
+	width: 450px; 
+}
+/* Login */
+#fancyLogin { 
+	display: none; 
+	width: 400px; 
+	height: 220px;
+	margin-top: -20px;
+    overflow: hidden;
+}
+#centrar{
+	position:absolute;
+	top:50%;
+	width:100%;
+	margin-top:-160px;
+}
+#loginbox {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #646464; 
+    font-size: 20px;
+}
+#loginbox h3{
+	margin-left: 10px;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+#loginbox div:nth-child(2){
+	margin-bottom: 30px;
+}
+#loginbox div{
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+#loginbox:first-child{
+	padding-top: 10px;
+}
+#loginbox label {
+    float: left;
+    width: 130px;
+}
+#loginbox span {
+    display: block;
+    overflow: hidden;
+    padding: 0 4px 0 0;
+}
+#loginbox span input {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 90%;
+}
+
+
+/* Contacto */
+#fancyContacto { display: none; margin-top: -20px; }
+
+#fancyContacto label { margin-right: 12px; margin-bottom: 9px; font-family: Arial, Helvetica, sans-serif; color: #646464; font-size: 1.2em; }
+
+#fancyContacto h2{
+	margin-bottom: 10px;
+}	
+#woman{
+	width:40px;
+}
+#cajaWoman{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: #01183F; 
+	z-index: 10;
+}
+#cajaNombre{
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	margin-top: 5px;
+	padding: 0px 10px;
+	border-radius: 3px;
+	border: 1px dotted #ccc;
+	background: #ffffff;
+	display: table;
+	z-index: 9;
+}
+#linea1, #linea2{
+	position: relative;
+	width: 496px;
+	height: 35px;
+}
+#linea1{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#linea2{
+	margin-bottom: 30px;
+}
+#nombre{
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 60px;
+	font-family: Arial, Helvetica, sans-serif; 
+	color: #646464; 
+	font-size: 1.5em; 
+}
+
+.txt { 
+	display: inline-block; 
+	color: #676767;
+	width: 400px; 
+	margin-bottom: 10px; 
+	border: 1px dotted #ccc; 
+	padding: 5px 9px;
+	font-size: 1.2em;
+	line-height: 1.4em;
+}
+
+.txtarea { 
+	display: block; 
+	resize: none;
+	color: #676767;
+	margin-bottom: 10px; 
+	width: 500px; 
+	height: 150px;
+	border: 1px dotted #ccc;
+	padding: 5px 9px; 
+	font-size: 1.2em;
+	line-height: 1.4em;
+}
+
+.txt:focus, .txtarea:focus { border-style: solid; border-color: #bababa; color: #444; }
+
+input.error, textarea.error { border-color: #973d3d; border-style: solid; background: #f0bebe; color: #a35959; }
+input.error:focus, textarea.error:focus { border-color: #973d3d; color: #a35959; }

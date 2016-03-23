@@ -1,0 +1,10 @@
+<nombrePapa> y <nombreMama>: 
+
+Terminamos la primera etapa del preuniversitario de tu <hijohija>, con  27 controles acumulativos de 10 preguntas cada uno  en 10 minutos, en los que obtuvo un <porcentajeControles> de logro.
+
+Ahora comienza la segunda etapa, que consta de cuatro mini ensayos acumulativos de 40 preguntas en 60 minutos.
+La  tarea semanal es de 90 ejercicios, teniendo que resolver 15 ejercicios diarios.
+ 
+Saludos
+
+<firma>

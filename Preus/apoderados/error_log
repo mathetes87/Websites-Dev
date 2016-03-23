@@ -1,0 +1,6 @@
+[22-Mar-2014 09:47:00] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/nachal/public_html/alumnoComun.php on line 55
+[22-Mar-2014 10:43:23] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/nachal/public_html/alumnoComun.php on line 62
+[04-Mar-2015 10:58:22 America/Chicago] PHP Warning:  include_once(../alumnoComun.php): failed to open stream: No such file or directory in /home/nachal/public_html/apoderados/39ce1a91a4a50f414601a3c13a4c9ef9.php on line 21
+[04-Mar-2015 10:58:22 America/Chicago] PHP Warning:  include_once(): Failed opening '../alumnoComun.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/nachal/public_html/apoderados/39ce1a91a4a50f414601a3c13a4c9ef9.php on line 21
+[04-Mar-2015 11:23:42 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/nachal/public_html/alumnoComun.php on line 55
+[04-Mar-2015 11:25:02 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/nachal/public_html/alumnoComun.php on line 56

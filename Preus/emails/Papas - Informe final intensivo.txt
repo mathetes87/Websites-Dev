@@ -1,0 +1,16 @@
+<nombrePapa> y <nombreMama>:
+
+Les informo  el resultado de los <nEnsayosNoviembre> ensayos realizados durante el mes de Noviembre. 
+El  resultado en rojo es la Prueba diagnóstico que  dió tu <hijohija> <nombreAlumno> hace un año. 
+El resultado en verde es el promedio que obtuvo en esta etapa de intensivo
+
+<NombreAlumno> <apellidosAlumno>
+
+<tablaPuntajes>
+
+Con esto se cierra el trabajo del año.
+Te pido oraciones por <elella>,  para que ese día este tranquil<oa> y rinda lo máximo posible 
+
+Te  saluda cariñosamente
+
+<firma>
